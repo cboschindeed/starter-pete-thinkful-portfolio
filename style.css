@@ -18,10 +18,17 @@ h3 {
 
 /* Header */
 header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
 /* Containers */
+nav {
+  margin: 30px;
+}
+
 div {
   background-color: #eae2b7;
   margin: auto;
@@ -65,6 +72,7 @@ img {
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+  order: 1;
 }
 
 /* Footer */
@@ -75,4 +83,23 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.about-section {
+  display: flex;
+}
+
+.about-items {
+  text-align: left;
+}
+
+.portfolio-section {
+  display: flex;
+  font-size: 14px;
+}
+
+.portfolio-items {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px;
 }
